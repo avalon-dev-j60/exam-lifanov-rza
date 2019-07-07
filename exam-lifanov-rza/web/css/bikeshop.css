@@ -1,0 +1,85 @@
+/* 
+    Created on : 27.06.2019, 10:58:22
+    Author     : Lifanov Dmitrii
+*/
+
+@import "groundwork-setup.css";
+
+header{
+  height: 230px;
+  background: #333333 url(logo_____.jpg) no-repeat 5% 50%;
+  padding: 5px 0 10px 0;
+}
+
+#references{
+}
+#references ul {
+}
+#references ul li a {
+  font-family: arial, Helvetica;  /*меняем шрифт*/
+  font-size: 14px;
+  color:#fff;  /*меняем цвет ссылок*/
+  padding:3px;  /*добавляем отступ*/
+  border-radius:4px; /*добавляем скругление*/
+
+  -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+}
+#references a:hover {
+  background:#1C85BB;  /*добавляем эффект при наведении*/
+}
+#references li {
+  display: inline;
+  float:right;  /*Размещаем список горизонтально для реализации меню и ровняем по правому краю*/
+  margin-right:15px;  /*Добавляем отступ у пунктов меню*/
+}
+#references ul li{
+  list-style-type: none;
+}
+
+.name{
+ font-size: 60px;
+ padding-top: 30px;
+ text-align: center;
+ color:#fff;
+ font-family: Brush Script Std;
+}
+
+#menu{
+}
+#menu ul {
+  width:550px;
+  margin:0 auto;
+  display:block;
+  margin-top:30px;  /*делаем отступ сверху*/
+}
+#menu ul li a {
+  background:#FAC319; /*добавляем фон к пункту меню*/
+  text-align: center;
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  font-family: arial, Helvetica; /*меняем шрифт*/
+  font-size: 18px;
+  color:#fff; /*меняем цвет ссылок*/
+  padding:10px; /*добавляем отступ*/
+  border-radius:4px; /*добавляем скругление*/
+
+  -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+}
+#menu a:hover {
+  background:#1C85BB;/*добавляем эффект при наведении*/
+}
+#menu li {
+  display: inline; /* Размещаем список горизонтально для реализации меню*/
+  margin-right:15px; /*Добавляем отступ у пунктов меню*/
+}
+#menu ul li{
+  list-style-type: none;
+}
+#text {
+margin-right: 400px;
+margin-left: 415px;
+font-size: 18px;
+}
